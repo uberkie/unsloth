@@ -1656,6 +1656,7 @@ PARAMETER temperature 0
 SYSTEM """A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions."""
 '''
 
+
 OLLAMA_TEMPLATES["granite-32"] = granite_32_ollama
 OLLAMA_TEMPLATES["granite-32-vision"] = granite_32_vision_ollama
 
