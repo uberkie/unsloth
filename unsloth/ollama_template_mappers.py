@@ -22,7 +22,7 @@ OLLAMA_TEMPLATES = {}
 
 # =========================================== Unsloth
 
-unsloth_ollama = ''
+unsloth_ollama = '''
 FROM {__FILE_LOCATION__}
 TEMPLATE """{{ if .System }}{{ .System }}
 {{ end }}{{ if .Prompt }}>>> User: {{ .Prompt }}
